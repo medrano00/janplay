@@ -1,0 +1,50 @@
+Arguments: 
+  /usr/local/bin/node /opt/yarn-v1.22.19/bin/yarn.js install
+
+PATH: 
+  /project/home/pitcher-host/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/project/home/pitcher-host/.local/state/fnm_multishells/1031_1679588607722/bin:/usr/share/fnm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)
+
+npm manifest: 
+  {
+    "name": "janplay",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.html",
+    "scripts": {
+      "start": "serve",
+      "build": "echo This is a static template, there is no bundler or bundling involved!"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/codesandbox-app/static-template.git"
+    },
+    "keywords": [],
+    "author": "Ives van Hoorne",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/codesandbox-app/static-template/issues"
+    },
+    "homepage": "https://github.com/codesandbox-app/static-template#readme",
+    "devDependencies": {
+      "serve": "^11.2.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
