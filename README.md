@@ -1,2 +1,0 @@
-# janplay
-Created with CodeSandbox
