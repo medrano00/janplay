@@ -24,11 +24,10 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
-    
+    <link rel="stylesheet" href="./css/style.css">
   </head>
 
-  <link rel="stylesheet" href="./css/style.css">
-  <body style="background-color: powderblue;">
+<body>
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
     <!-- Navbar -->
     <div class="container-sm">
@@ -41,8 +40,7 @@
       >
         <!-- Brand -->
         <div class="col-sm-3" href="#">
-          <h4> <a href="./index.html"> JanPlay! </a></h4>
-          <img src="./images/logo.png" alt="logo" height="60" width="70"> 
+          <a href="./index.html"> <img src="./images/logo.png" alt="logo" height="60" width="60">  </a>
         </div>
         <!-- Browser -->
         <div class="col-sm-6">
@@ -65,8 +63,12 @@
               <a
                 class="nav-link dropdown-toggle"
                 id="navbardrop"
-                data-toggle="dropdown"
+                data-toggle="dropdown" 
                 >Contacto</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="./Formulario/formulario.html">
+                Formulario</a>
+              </div>
             </li>
             <!-- Dropdown -->
             <li class="nav-item dropdown">
@@ -82,8 +84,7 @@
                 >
               </div>
             </li>
-            <li><a href="./cart/cart.html">
-              Carrito
+            <li><a href="./cart/cart.html"><img src="./images/carrito.png" alt="carrito" width="50" height="50">
               </a>
             </li>
           </ul>
@@ -117,12 +118,12 @@
             </div>
           </div>
           <div class="carousel-item">
-            <a href="./blogs/novedades.html"
+            <a href="./blogs/juegos.html"
               ><img
                 class="d-block mx-auto"
                 width="1080"
                 height="840"
-                src="./images/juegosplay.jpg"
+                src="./images/videojuegos.png"
                 alt=""
             /></a>
             <div class="carousel-caption d-none d-md-block">
@@ -132,7 +133,11 @@
           </div>
           <div class="carousel-item">
             <a href="./blogs/cambiodirectivo.html"
-              ><img class="d-block mx-auto" src="./images/images.jpeg" alt=""
+              ><img class="d-block mx-auto" 
+              width="1080"
+              height="840"
+              src="./images/directiva.jpeg" 
+              alt=""
             /></a>
             <div class="carousel-caption d-none d-md-block">
               <h1>¡Cambio de Directiva en JanPlay!</h1>
@@ -151,10 +156,10 @@
     </div>
 
   <div class="card">
-    <img src="./images/images.jpeg" alt="Avatar" width="320" height="320">
+    <img src="./images/images.jpeg" alt="Avatar" width="120" height="120">
     <div class="container">
       <h4><b>Roberto Manfinfla</b></h4>
-      <p>Lea el apellido</p>
+      <p></p>
   </div>
 </div>
   </body>

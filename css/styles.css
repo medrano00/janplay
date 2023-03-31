@@ -52,7 +52,7 @@ html, body {
 }
 
 .main-header {
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgb(250, 250, 250);
     background-image: url("Images/Header Background.jpg");
     background-blend-mode: multiply;
     background-size: cover;
@@ -170,7 +170,7 @@ html, body {
 }
 
 .tour-row {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(255, 255, 255);
     padding-bottom: 1em;
     margin-bottom: 1em;
 }
@@ -308,7 +308,7 @@ html, body {
 }
 
 .cart-row:last-child {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 .cart-row:last-child .cart-column {
@@ -338,3 +338,7 @@ html, body {
     margin: 40px auto 80px auto;
     font-size: 1.75em;
 }
+
+body {
+    background: linear-gradient(120deg,#0ECAC7,#770ECA );
+  }
