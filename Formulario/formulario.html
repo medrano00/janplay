@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto - JanPlay!</title>
-    <link rel="stylesheet" href="../css/style4.css">
+    <link rel="stylesheet" href="../css/styleForm.css">
     <link rel="Icon" href="./../images/logo16x16.png" type="image/x-icon">
+    <script src="./../js/validacionesFormulario.js"></script>
 </head>
+
 <body>
     <div class="formu">
         <h1>Contacto</h1>
-  <form method="post">
-    <div class="user">
-    <input type="text" required>
-<label>Nombre Completo</label>
-</div>
-<div class="user">
-    <input type="text" required>
-    <label>Correo Electronico</label>
-</div>
-<div class="user">
-    <input type="text" required>
-    <label>Telefono</label>
-</div>
-<div class="user">
-    <label>Comentario</label>
-    <textarea name="comentario" cols="70" rows="8">
-    </textarea>
-    <input type="submit" value="Enviar">
-</div> 
+        <form method="post" id="form">
+            <div class="user">
+                <input type="text" id="nombre" name="nombre">
+                <label>Nombre Completo</label>
+            </div>
+            <div class="user">
+                <input type="text" id="correo" name="correo">
+                <label>Correo Electronico</label>
+            </div>
+            <div class="user">
+                <input type="text" id="telefono" name="telefono">
+                <label>Telefono</label>
+            </div>
+            <div class="user">
+                <label>Comentario</label>
+                <textarea name="Comentario" cols="70" rows="8" required> </textarea>
+                <input type="submit" value="Enviar" onclick="validar()">
+            </div>
 
-</form>                
+        </form>
 </body>
+
 </html>
