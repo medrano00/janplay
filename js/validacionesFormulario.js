@@ -3,9 +3,9 @@ function validar() {
     const emailField = document.getElementById("correo");
     const phoneField = document.getElementById("telefono");
   
-    const nameRegex = /^[a-zA-Z]+$/;
-    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9._%]+.com$/;
-    const phoneRegex = /^9\d{8}$/;
+    const nameRegex = /^[a-zA-Z]/;
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9._%]+.com/;
+    const phoneRegex = /^9\d{8}/;
   
     const showError = (message) => {
       alert(message);
